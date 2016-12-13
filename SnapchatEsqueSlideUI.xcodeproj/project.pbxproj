@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FE4DC91E00703100A47320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FE4DC81E00703100A47320 /* AppDelegate.swift */; };
+		17FE4DCB1E00703100A47320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FE4DCA1E00703100A47320 /* ViewController.swift */; };
+		17FE4DCE1E00703100A47320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FE4DCC1E00703100A47320 /* Main.storyboard */; };
+		17FE4DD01E00703100A47320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FE4DCF1E00703100A47320 /* Assets.xcassets */; };
+		17FE4DD31E00703100A47320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FE4DD11E00703100A47320 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17FE4DC51E00703100A47320 /* SnapchatEsqueSlideUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatEsqueSlideUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FE4DC81E00703100A47320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17FE4DCA1E00703100A47320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17FE4DCD1E00703100A47320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17FE4DCF1E00703100A47320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17FE4DD21E00703100A47320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17FE4DD41E00703100A47320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FE4DC21E00703100A47320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FE4DBC1E00703100A47320 = {
+			isa = PBXGroup;
+			children = (
+				17FE4DC71E00703100A47320 /* SnapchatEsqueSlideUI */,
+				17FE4DC61E00703100A47320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17FE4DC61E00703100A47320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FE4DC51E00703100A47320 /* SnapchatEsqueSlideUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FE4DC71E00703100A47320 /* SnapchatEsqueSlideUI */ = {
+			isa = PBXGroup;
+			children = (
+				17FE4DC81E00703100A47320 /* AppDelegate.swift */,
+				17FE4DCA1E00703100A47320 /* ViewController.swift */,
+				17FE4DCC1E00703100A47320 /* Main.storyboard */,
+				17FE4DCF1E00703100A47320 /* Assets.xcassets */,
+				17FE4DD11E00703100A47320 /* LaunchScreen.storyboard */,
+				17FE4DD41E00703100A47320 /* Info.plist */,
+			);
+			path = SnapchatEsqueSlideUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17FE4DC41E00703100A47320 /* SnapchatEsqueSlideUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FE4DD71E00703100A47320 /* Build configuration list for PBXNativeTarget "SnapchatEsqueSlideUI" */;
+			buildPhases = (
+				17FE4DC11E00703100A47320 /* Sources */,
+				17FE4DC21E00703100A47320 /* Frameworks */,
+				17FE4DC31E00703100A47320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapchatEsqueSlideUI;
+			productName = SnapchatEsqueSlideUI;
+			productReference = 17FE4DC51E00703100A47320 /* SnapchatEsqueSlideUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FE4DBD1E00703100A47320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Stuart Wallace";
+				TargetAttributes = {
+					17FE4DC41E00703100A47320 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RWM33LU3H3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17FE4DC01E00703100A47320 /* Build configuration list for PBXProject "SnapchatEsqueSlideUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17FE4DBC1E00703100A47320;
+			productRefGroup = 17FE4DC61E00703100A47320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FE4DC41E00703100A47320 /* SnapchatEsqueSlideUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FE4DC31E00703100A47320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FE4DD31E00703100A47320 /* LaunchScreen.storyboard in Resources */,
+				17FE4DD01E00703100A47320 /* Assets.xcassets in Resources */,
+				17FE4DCE1E00703100A47320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FE4DC11E00703100A47320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FE4DCB1E00703100A47320 /* ViewController.swift in Sources */,
+				17FE4DC91E00703100A47320 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17FE4DCC1E00703100A47320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17FE4DCD1E00703100A47320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17FE4DD11E00703100A47320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17FE4DD21E00703100A47320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17FE4DD51E00703100A47320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17FE4DD61E00703100A47320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17FE4DD81E00703100A47320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWM33LU3H3;
+				INFOPLIST_FILE = SnapchatEsqueSlideUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stuart.SnapchatEsqueSlideUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17FE4DD91E00703100A47320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWM33LU3H3;
+				INFOPLIST_FILE = SnapchatEsqueSlideUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stuart.SnapchatEsqueSlideUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FE4DC01E00703100A47320 /* Build configuration list for PBXProject "SnapchatEsqueSlideUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FE4DD51E00703100A47320 /* Debug */,
+				17FE4DD61E00703100A47320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FE4DD71E00703100A47320 /* Build configuration list for PBXNativeTarget "SnapchatEsqueSlideUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FE4DD81E00703100A47320 /* Debug */,
+				17FE4DD91E00703100A47320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17FE4DBD1E00703100A47320 /* Project object */;
+}
