@@ -1,11 +1,3 @@
-//
-//  AViewController.swift
-//  bubble_ios
-//
-//  Created by Brendan Lee on 7/23/14.
-//  Copyright (c) 2014 Brendan Lee. All rights reserved.
-//
-
 import UIKit
 
 class AViewController: UIViewController {
